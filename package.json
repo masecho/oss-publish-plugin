@@ -1,0 +1,28 @@
+{
+  "name": "oss-publish-plugin",
+  "version": "1.1.5",
+  "description": "oss-publish-plugin插件主要用作前端代码的阿里云的OSS发布",
+  "main": "index.js",
+  "scripts": {
+    "upload": "node ./example/ossPublish --publishMode=upload",
+    "copy": "node ./example/copyfile.js"
+  },
+  "type": "commonjs",
+  "keywords": [
+    "alioss",
+    "oss",
+    "阿里云",
+    "代码发布",
+    "前端"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/masecho/oss-publish-plugin"
+  },
+  "author": "masecho",
+  "license": "ISC",
+  "dependencies": {
+    "ali-oss": "^6.17.1",
+    "minimist": "^1.2.8"
+  }
+}
